@@ -1,0 +1,9 @@
+#Visual Studio files
+*.[Oo]bj
+#
+ExLinkTPConnectorDll/*
+IpLinkTPConnectorDll/*
+Output/ExLinkTPConnectorDll/Debug_Win32/*
+Output/IpLinkTPConnectorDll/Debug_Win32/*
+BinTemp/*
+ipch/*
