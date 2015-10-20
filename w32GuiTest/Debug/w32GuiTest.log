@@ -1,0 +1,29 @@
+﻿Build started 20/10/2015 11:25:36 a.m..
+     1>Project "C:\Users\mleal\Documents\Workspace\workspace-WSDL\sdk-cpp\TPConector\w32GuiTest\w32GuiTest.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\mleal\Documents\Workspace\workspace-WSDL\sdk-cpp\TPConector\ExLinkTPConnectorDll" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D DLL_EXPLICIT_LINK /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\w32GuiTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\mleal\Documents\Workspace\workspace-WSDL\sdk-cpp\TPConector\ExLinkTPConnectorDll" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D DLL_EXPLICIT_LINK /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\w32GuiTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AuthorizeRequest.cpp GetAuthorizeAnswer.cpp w32GuiTest.cpp
+         w32GuiTest.cpp
+     1>c:\users\mleal\documents\workspace\workspace-wsdl\sdk-cpp\tpconector\w32guitest\w32guitest.cpp(196): warning C4101: 'text' : unreferenced local variable
+     1>c:\users\mleal\documents\workspace\workspace-wsdl\sdk-cpp\tpconector\w32guitest\w32guitest.cpp(274): warning C4101: 'text' : unreferenced local variable
+         GetAuthorizeAnswer.cpp
+         AuthorizeRequest.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\mleal\Documents\Workspace\workspace-WSDL\sdk-cpp\TPConector\ExLinkTPConnectorDll" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D DLL_EXPLICIT_LINK /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt util.cpp
+         util.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\w32GuiTest.res" w32GuiTest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mleal\Documents\Workspace\workspace-WSDL\sdk-cpp\TPConector\\Output\ExLinkTPConnectorDll\Debug_Win32\w32GuiTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mleal\Documents\Workspace\workspace-WSDL\sdk-cpp\TPConector\\Output\ExLinkTPConnectorDll\Debug_Win32\w32GuiTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mleal\Documents\Workspace\workspace-WSDL\sdk-cpp\TPConector\\Output\ExLinkTPConnectorDll\Debug_Win32\w32GuiTest.lib" /MACHINE:X86 Debug\w32GuiTest.res
+         Debug\AuthorizeRequest.obj
+         Debug\GetAuthorizeAnswer.obj
+         Debug\stdafx.obj
+         Debug\util.obj
+         Debug\w32GuiTest.obj
+         w32GuiTest.vcxproj -> C:\Users\mleal\Documents\Workspace\workspace-WSDL\sdk-cpp\TPConector\\Output\ExLinkTPConnectorDll\Debug_Win32\w32GuiTest.exe
+     1>Done Building Project "C:\Users\mleal\Documents\Workspace\workspace-WSDL\sdk-cpp\TPConector\w32GuiTest\w32GuiTest.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.97

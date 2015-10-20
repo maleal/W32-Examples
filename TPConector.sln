@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExLinkTPConnectorDll", "ExLinkTPConnectorDll\ExLinkTPConnectorDll.vcxproj", "{8BF2FF43-FD8C-4237-95B9-7E0BF2D15A25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "w32ConsoleTest", "w32ConsoleTest\w32ConsoleTest.vcxproj", "{AB1DFCFB-64D4-4175-8786-DE2EDB3CA853}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IpLinkTPConnectorDll", "IpLinkTPConnectorDll\IpLinkTPConnectorDll.vcxproj", "{8EE596C8-19D9-4479-8F04-C38BBA6EE84D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "w32GuiTest", "w32GuiTest\w32GuiTest.vcxproj", "{6756B07F-8A45-4004-97FD-CB2D89761147}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "w32ConsoleTest_IpL", "w32ConsoleTest_IpL\w32ConsoleTest_IpL.vcxproj", "{C206431B-8466-4E9D-AE7F-B1F15D0CF539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BF2FF43-FD8C-4237-95B9-7E0BF2D15A25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8BF2FF43-FD8C-4237-95B9-7E0BF2D15A25}.Debug|Win32.Build.0 = Debug|Win32
+		{8BF2FF43-FD8C-4237-95B9-7E0BF2D15A25}.Release|Win32.ActiveCfg = Release|Win32
+		{8BF2FF43-FD8C-4237-95B9-7E0BF2D15A25}.Release|Win32.Build.0 = Release|Win32
+		{AB1DFCFB-64D4-4175-8786-DE2EDB3CA853}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB1DFCFB-64D4-4175-8786-DE2EDB3CA853}.Debug|Win32.Build.0 = Debug|Win32
+		{AB1DFCFB-64D4-4175-8786-DE2EDB3CA853}.Release|Win32.ActiveCfg = Release|Win32
+		{AB1DFCFB-64D4-4175-8786-DE2EDB3CA853}.Release|Win32.Build.0 = Release|Win32
+		{8EE596C8-19D9-4479-8F04-C38BBA6EE84D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8EE596C8-19D9-4479-8F04-C38BBA6EE84D}.Debug|Win32.Build.0 = Debug|Win32
+		{8EE596C8-19D9-4479-8F04-C38BBA6EE84D}.Release|Win32.ActiveCfg = Release|Win32
+		{8EE596C8-19D9-4479-8F04-C38BBA6EE84D}.Release|Win32.Build.0 = Release|Win32
+		{6756B07F-8A45-4004-97FD-CB2D89761147}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6756B07F-8A45-4004-97FD-CB2D89761147}.Debug|Win32.Build.0 = Debug|Win32
+		{6756B07F-8A45-4004-97FD-CB2D89761147}.Release|Win32.ActiveCfg = Release|Win32
+		{6756B07F-8A45-4004-97FD-CB2D89761147}.Release|Win32.Build.0 = Release|Win32
+		{C206431B-8466-4E9D-AE7F-B1F15D0CF539}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C206431B-8466-4E9D-AE7F-B1F15D0CF539}.Debug|Win32.Build.0 = Debug|Win32
+		{C206431B-8466-4E9D-AE7F-B1F15D0CF539}.Release|Win32.ActiveCfg = Release|Win32
+		{C206431B-8466-4E9D-AE7F-B1F15D0CF539}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
